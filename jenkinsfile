@@ -1,0 +1,8 @@
+node('localNode1') {
+  stage('testing') {
+    dir('seleinum-java') {
+      sh '''pwd'''
+      sh '''mvn test -Dtest="LoginTests"'''
+    }
+  }
+}
