@@ -5,7 +5,6 @@ import base.BaseTests;
 import org.testng.annotations.Test;
 import pages.*;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.*;
 
 public class LoginTests extends BaseTests {
