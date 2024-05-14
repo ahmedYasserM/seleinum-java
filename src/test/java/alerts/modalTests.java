@@ -8,7 +8,7 @@ import static org.testng.Assert.*;
 
 public class modalTests extends BaseTests {
 
-    // This test is faild and I do not nutil now how to fix it
+    // This test is faild and I don't know until now how to fix it
     @Test
     public void testModalWindow() {
         EntryAdPage entryAdPage = homePage.clickEntryAd();
